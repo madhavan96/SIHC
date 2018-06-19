@@ -1,0 +1,25 @@
+{
+    "name": "aheinze/lime",
+    "description": "The PHP micro-framework",
+    "keywords": ["php", "micro-framework", "microframework", "lime"],
+    "homepage": "https://github.com/aheinze/Lime",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Heinze",
+            "email": "faulancer@gmail.com",
+            "homepage": "http://agentejo.com/",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.6.0"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Lime": "src/"
+        }
+    }
+}
