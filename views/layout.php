@@ -17,9 +17,7 @@
         <?php include_once('includes/header.php'); ?>
 
         <!-- main content -->
-        <div>
-            <?php echo $content_for_layout; ?>
-        </div>    
+            <?php echo $content_for_layout; ?>    
             
 
         <!-- end main content -->
