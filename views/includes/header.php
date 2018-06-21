@@ -1,9 +1,8 @@
 <header class="l-header">
-            <div id="sticky-wrapper" class="l-navbar-wrapper" style="height: 200px;">
+            <div id="sticky-wrapper" class="l-navbar-wrapper">
                 <div class="l-navbar l-navbar_expand l-navbar_t-light js-navbar-sticky" style="width: 1440px; border-bottom: 1px solid #a5a3a3;">
-                    <div class="container-fluid">
+                    <div class="container-fluid header-content">
                         <nav class="menuzord js-primary-navigation menuzord-responsive" role="navigation" aria-label="Primary Navigation">
-                            <!-- <a href="javascript:void(0)" class="showhide"><em></em><em></em><em></em></a> -->
                             <!--logo start-->
                             <div class="outer-header visible-md-block visible-lg-block ">
                                 <div class="social-links text-normal">
@@ -20,18 +19,17 @@
                                 <div class="inner-header">
                                     <a href="" class="logo-brand">
                                         <img class="retina logo" src="asset/img/logo.png" alt="SIHC">
+                                        <h2 class="main-heading">South Indian History Congress</h2>
                                     </a>
-                                    <h2 class="main-heading">South Indian History Congress</h2>
-                                    <h4 class="sub-heading">Madurai</h4>
                                 </div>
                             </div>
                             <!-- small header -->
                             <div class="small-header hidden-md hidden-lg visible-xs-block visible-sm-block">
                                 <a href="" class="logo-brand">
                                     <img class="retina logo" src="asset/img/logo.png" alt="SIHC">
+                                    <h2 class="main-heading">SIHC</h2>
                                 </a>
-                                <h2 class="main-heading">SIHC</h2>
-                                <label class="sub-heading">Madurai</label>
+                                
                             </div>
                             <!-- small header -->
 
