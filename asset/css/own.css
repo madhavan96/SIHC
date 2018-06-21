@@ -16,6 +16,7 @@
 
 .text-intro{
     color: black;
+    width: 100%;
 }
 .font-white{
     color:white;
@@ -61,19 +62,17 @@
 
 .page-title-bar{
     background-color: #04a788;
-    padding-top: 11px;
-    padding-right: 117px;
-    padding-bottom: 8px;
-    padding-left: 50px;
-    margin-top: 67px;
-    width: -moz-fit-content;
-    margin-bottom: 50px;
-    
+    padding: 0.6% 1% 0.6% 5%;
+    width: 98%;
+    margin: 2% auto 1% auto;
+    border-radius: 5px;
 }
 .page-title-bar-heading{
-    all:initial;
-    color: white;
-    
+    color: #ffffff;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .loader{
@@ -114,9 +113,11 @@
 
 .card-heading h4 {
     color: white;
+    font-size: 20px;
+    padding: 1% 0 1% 0;
     font-weight: 700;
-    padding: 0px;
     margin: 0px;
+    text-transform: uppercase;
 }
 
 .card-img {
@@ -173,4 +174,62 @@
     height: 85px !important;
 }
 
+p{
+    color: #000000;
+}
+footer p{
+    color: #7e7e7e;
+}
+.membership-para{
+    margin: 8% 0 0 0;
+    font-size: 18px;
+    padding: 2%;
+}
+.MR-form{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 0;
+    margin: 2% 0 2% 0%;
+}
+.form-horizontal{
+    padding: 0 2% 0 2%;
+}
 
+.rules-content ol{
+    padding: 5%;
+    line-height: 2;
+}
+
+/* .l-navbar{
+    background-color: 
+} */
+
+.main-carousel{
+    width: 100%;
+}
+.slide-wrapper{
+    width: 70%;
+    margin: 0;
+}
+.slide-wrapper > .row{
+    margin: 4% 2% 2%;
+}
+.home{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+.journal-wrapper{
+    padding: 0;
+}
+.journal{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 4%;
+}
+.journal-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.journal-content div p{
+    padding: 1% 5%;
+    text-align: justify;
+}
