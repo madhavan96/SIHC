@@ -20,7 +20,7 @@
 
         <div class="row">
             <div class="col-xs-12">
-                <div class="row">
+                <div class="row main-desc">
                     <div class="col-xs-12">
                         <p class="text-justify text-intro">
                             <b>South Indian History Congress</b> was founded at a conclave of historians at the School of Historical
@@ -33,13 +33,21 @@
                             of South India.
                         </p>
                     </div>
+                </div>
+                <div class="row notify-wrapper">
                     <div class="col-12">
-                        <p>
-                            notifications here ..
-                        </p>
+                        <div class="card-heading notify-head">WHAT'S NEW TODAY</div>
+                        <div class="notify-content">
+                            <ul>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
             </div>
 
         </div>
@@ -47,17 +55,23 @@
 
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 journal-wrapper">
         <div class="journal">
-            <div class="journal-head text-center">
+            <div class="journal-head text-center card-heading">
                 <label>
                     <b>Journal</b>
                 </label>
             </div>
             <div class="journal-content">
-                <img class="img-center" src="asset/img/journals.png">
+                <p>
+                <img class="img" src="asset/img/journals.png">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                </p>
                 <br>
-                <div class="">
+                <div class="extra-info">
                     <label>
-                        <b>Editions:</b>
+                        <b>Editions</b>
                     </label>
                     <p class="text-justify">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -66,9 +80,9 @@
                         typesetting, remaining essentially unchanged.
                     </p>
                 </div>
-                <div class="">
+                <div class="extra-info">
                     <label>
-                        <b>Publications:</b>
+                        <b>Publications</b>
                     </label>
                     <p class="text-justify">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy

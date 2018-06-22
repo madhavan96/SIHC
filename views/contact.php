@@ -10,7 +10,8 @@
         </div>
     </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 message-us">
+                <div class="card-heading">send us a message</div>
                 <form>
                     <div>
                         <div class="form-group">
@@ -41,7 +42,8 @@
                 <br>
                 <br>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-details">
+                <div class="card-heading">our details</div>
                 <div class="row">
                     <div class="col-12">
                         <h4>Address</h4>
@@ -65,7 +67,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h4>Social Links</h4>
-                        <div class="social-links text-normal" style="position: initial">
+                        <div class="social-links">
                             <img class="icons" src="asset/img/social-icons/facebook.png">
                             <img class="icons" src="asset/img/social-icons/google-plus.png">
                             <img class="icons" src="asset/img/social-icons/instagram.png">
