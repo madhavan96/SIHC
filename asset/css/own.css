@@ -187,58 +187,14 @@ footer p{
     padding: 2%;
 }
 .MR-form{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     padding: 0;
     margin: 2% 0 2% 0%;
 }
 .form-horizontal{
     padding: 0 2% 0 2%;
 }
-span.rules-list-head{
-	height: 32px;
-	width: 30%;
-	color: #b78b49;
-	font-size: 18px;
-	font-weight: 600;
-	font-style: italic;
-	
-}
-.rules-content{
-	width: 100%;
-	padding: 2%;
-	/* margin: 0 auto; */
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-.rules-content ol {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-}
-.rules-content ol {
-	counter-reset: custom-counter;
-}
-.rules-content ol > li::before {
-	content: counter(custom-counter);
-	counter-increment: custom-counter;
-	background-color: #b78b49;
-	font-size: 2em;
-	padding: 0 1%;
-	margin: 0 1% 0 0;
-	font-weight: bold;
-	color: #ffffff;
-}
-.rules-content ol li {
-	line-height: 1.5;
-	font-size: 15px;
-}
-.rules-content ol > li p {
-	margin: 0;
-	padding-left: 4%;
-	text-align: justify;
-	text-justify: inter-word;
-}
-.rules-content ol > li {margin: 2%;}
-.rules-sub-list  li{list-style-type: circle; margin-bottom: 1%;}
+
 
 
 /* .l-navbar{
@@ -251,7 +207,7 @@ span.rules-list-head{
 .slide-wrapper{
     width: 50%;
     margin: 0;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 }
 .slide-wrapper > .row{
     margin: 4% 2% 2%;
@@ -269,7 +225,7 @@ span.rules-list-head{
     width: 50%;
 }
 .journal{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     margin: 0 0 2% 2%;
     height: 100%;
 }
@@ -331,9 +287,7 @@ span.rules-list-head{
     width: 48%;
     padding: 0;
     margin: 2% 1%;
-    border: 2px solid #b78b49; 
-    border-top: none;
-    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 }
 /* .contact-details{
     margin: 0;
@@ -369,12 +323,12 @@ span.rules-list-head{
     width: 24px;
     height: 24px;
 }
-.message-us form{
-    padding: 2%;
-}
-.message-us .card-heading, .contact-details .card-heading {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
-    margin-bottom: 2%;
+
+
+/* media queries */
+
+@media only screen and (max-width: 768px){
+    .message-us, .contact-details{
+        width: 100%;
+    }
 }
