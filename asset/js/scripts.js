@@ -1,4 +1,4 @@
-;(function () {
+; (function () {
     "use strict";
 
     var $window, $document, $body;
@@ -7,12 +7,12 @@
     $document = $(document);
     $body = $("body");
 
-    
+
     /*==============================================
      Pre loader init
      ===============================================*/
     $window.on("load", function () {
-        $('.loader').css('display','none');
+        $('.loader').css('display', 'none');
     });
 
     /*==============================================
@@ -88,10 +88,10 @@
                 wrapperClassName: "l-navbar-wrapper",
                 zIndex: 10000,
                 bottomSpacing: 100
-            }).on("sticky-start", function() {
+            }).on("sticky-start", function () {
                 if ($navbarSticky.hasClass("l-navbar_s-center")) {
                     $brandLogo.height(0);
-                    setTimeout(function() {
+                    setTimeout(function () {
                         $brandLogo.addClass("sticky-fix").height(centerLogoStickyHeight);
                     }, 300);
                 }
@@ -112,7 +112,7 @@
                 cellAlign: 'center',
                 contain: true,
                 wrapAround: true,
-                lazyLoad: true,
+                autoPlay: true
             });
         });
 

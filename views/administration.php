@@ -140,7 +140,7 @@
 
     <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 commettiee">
-                    <div class="card-heading long-heading"><h4>Consultative Committee</h4></div>
+                    <div class="card-heading long-heading"><h4>EXECUTIVE COMMITTEE</h4></div>
                     <ul>
                         <li><b>Dr. S. Pari Parameswaran</b><br>
                             <p>Professor of Youth Welfare, Department of Youth Welfare Studies, M.K University, Madurai. 625021, Email. youthparimku@yahoo.in , Mob: 09842113616</p>

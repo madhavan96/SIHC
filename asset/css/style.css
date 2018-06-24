@@ -637,16 +637,6 @@ pre {
     width: 100%;
     height: auto;
 }
-
-.l-navbar-wrapper{
-    width: inherit;
-    height: auto;
-}
-.js-navbar-sticky{
-    height: auto;
-    width: 100%;
-}
-
 /*==============================================
  Navbar
  ===============================================*/
@@ -664,7 +654,7 @@ pre {
     display: flex;
     width: auto;
     height: auto;
-    margin: 1.5% 0 1.5% 0;
+    margin: 1.5% 0 0 0;
     color: #666; 
     font-size: 20px;
     font-weight: 600;
