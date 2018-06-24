@@ -10,3 +10,4 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="asset/css/default-theme.css">
     <link rel="stylesheet" href="asset/css/own.css">
+    <link rel="stylesheet" href="asset/css/ticker-style.css" />

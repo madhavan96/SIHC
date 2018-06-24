@@ -20,7 +20,7 @@
             </div>
     </div>
 </div>
-
+<hr><br>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             <div class="card-heading long-heading"><h4>Vice President</h4></div>
@@ -79,7 +79,7 @@
             </div>
     </div>
 </div>
-
+<hr><br>
 <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <div class="card-heading long-heading"><h4>Joint Secretaries</h4></div>
@@ -95,7 +95,7 @@
                 </div>
         </div>
 </div>
-
+<hr><br>
 <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
             <div class="card">
@@ -114,7 +114,7 @@
                 </div>
         </div>
 </div>
-
+<hr><br>
 <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <div class="card-heading long-heading"><h4>Consultative Committee</h4></div>
@@ -137,7 +137,7 @@
                 </div>
         </div>
     </div>
-
+    <hr><br>
     <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 commettiee">
                     <div class="card-heading long-heading"><h4>EXECUTIVE COMMITTEE</h4></div>

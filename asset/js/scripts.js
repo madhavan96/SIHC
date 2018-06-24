@@ -8,11 +8,13 @@
     $body = $("body");
 
 
+    
     /*==============================================
      Pre loader init
      ===============================================*/
     $window.on("load", function () {
         $('.loader').css('display', 'none');
+        $('#ticker').tickerme();
     });
 
     /*==============================================
@@ -23,6 +25,7 @@
 
 
     $document.ready(function () {
+
 
         /*==============================================
          Retina support added
@@ -112,8 +115,10 @@
                 cellAlign: 'center',
                 contain: true,
                 wrapAround: true,
-                autoPlay: true
+                autoPlay: true,
+                pageDots: false
             });
+            
         });
 
         /*==============================================

@@ -72,7 +72,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <span class="m-top-10">Copyright &copy 2018 |
+                            <span class="m-top-10">Copyright &copy <?php echo date('Y'); ?> |
                                 <span class="font-white"> South Indian History Congress</span> | All Rights Reserved</span>
                         </div>
                         <div class="col-md-6">

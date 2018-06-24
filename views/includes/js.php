@@ -23,4 +23,5 @@
     <!-- <script src="asset/js/visible.js"></script> -->
     <!-- <script src="asset/js/wow.min.js"></script> -->
     <script src="asset/js/scripts.js"></script>
+    <script src="asset/js/tickerme.min.js"></script>
     <!-- endinject -->

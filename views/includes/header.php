@@ -1,6 +1,6 @@
 <header class="l-header">
             <div id="sticky-wrapper" class="l-navbar-wrapper">
-                <div class="l-navbar l-navbar_expand l-navbar_t-light js-navbar-sticky" style="width: 1440px; border-bottom: 1px solid #a5a3a3;">
+                <div class="l-navbar l-navbar_expand l-navbar_t-light js-navbar-sticky" style="width: 1440px;background-color: antiquewhite;">
                     <div class="container-fluid header-content">
                         <nav class="menuzord js-primary-navigation menuzord-responsive" role="navigation" aria-label="Primary Navigation">
                             <!--logo start-->

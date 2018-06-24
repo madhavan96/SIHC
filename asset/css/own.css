@@ -1,5 +1,14 @@
 
 
+hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0; 
+}
+
 .text-justify{
     text-align: justify;
 }
@@ -204,10 +213,12 @@ footer p{
 .main-carousel{
     width: 100%;
 }
+.main-carousel img{
+    width: 640px;
+    height: 360px;
+}
 .slide-wrapper{
-    width: 50%;
-    margin: 0;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 20px;
 }
 .slide-wrapper > .row{
     margin: 4% 2% 2%;
@@ -242,6 +253,7 @@ footer p{
 .journal-content{
     height: 100%;
     padding: 1% 3% 2% 3%;
+    background-color: wheat;
 }
 .journal-content label{
     padding: 0.5% 2%;
@@ -325,6 +337,32 @@ footer p{
 }
 
 
+#news a{
+    color: red;
+    font-size: 16px;
+
+}
+
+.member-card {
+    width: 386px;
+    text-align: justify;
+    background-color: #ececec;
+    /* padding: 6px; */
+    display: inline-block;
+    border-radius: 2px;
+    padding: 8px 16px;
+    margin: 15px;
+}
+
+.member-card h6{
+    margin: 0px 0px 5px 0px;
+    color: darkred;
+    
+}
+.member-card p{
+    margin: 0 0 10px;
+    line-height: initial;
+}
 /* media queries */
 
 @media only screen and (max-width: 768px){
